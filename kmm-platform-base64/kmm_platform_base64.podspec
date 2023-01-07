@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name                     = 'platform_base64'
+    spec.name                     = 'kmm_platform_base64'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
     spec.source                   = { :http=> ''}
@@ -12,13 +12,13 @@ Pod::Spec.new do |spec|
                 
                 
     spec.pod_target_xcconfig = {
-        'KOTLIN_PROJECT_PATH' => ':platform-base64',
+        'KOTLIN_PROJECT_PATH' => ':kmm-platform-base64',
         'PRODUCT_MODULE_NAME' => 'platform-base64',
     }
                 
     spec.script_phases = [
         {
-            :name => 'Build platform_base64',
+            :name => 'Build kmm_platform_base64',
             :execution_position => :before_compile,
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT

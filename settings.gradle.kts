@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "kmm-platform-base64"
 includeBuild("convention-plugins")
-include(":platform-base64")
+include(":kmm-platform-base64")
